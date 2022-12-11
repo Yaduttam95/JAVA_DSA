@@ -24,13 +24,13 @@ public class ArraySumRecursive {
             a[i] = sc.nextInt();
         }
         System.out.println("ARRAY IS:");
-        for(int i=0;i<a.length;i++){
-            System.out.print(a[i] + "\t");
-        }
-//        ENHANCED FOR LOOP
-//        for (int j : a) {
-//            System.out.print(j + "\t");
+//        for(int i=0;i<a.length;i++){
+//            System.out.print(a[i] + "\t");
 //        }
+//        ENHANCED FOR LOOP
+        for (int j : a) {
+            System.out.print(j + "\t");
+        }
 
         System.out.println("\nSum is " + arraySum(a,n));
     }
