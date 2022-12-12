@@ -1,12 +1,14 @@
 package Array;
+
 import java.util.*;
 
-public class ArraySumRecursive {
-    public static int arraySum(int[] a, int n){
-        if(n<=0){
-            return 0;
+public class MaxOFArray {
+    public static int arrayMax(int[] a, int n){
+        int max = a[0];
+        for (int i=0;i<n;i++){
+            max = max>a[i]?max:a[i];
         }
-        return (arraySum(a, n-1) + a[n-1]);
+        return max;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -32,9 +34,9 @@ public class ArraySumRecursive {
 //        ENHANCED FOR LOOP
 
         for (int j : a) {
-            System.out.print(j + "\t");
+            System.out.print(j + "    ");
         }
 
-        System.out.println("\nSum is " + arraySum(a,n));
+        System.out.println("\nMax is " + arrayMax(a,n));
     }
 }
