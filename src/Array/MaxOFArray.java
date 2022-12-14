@@ -6,6 +6,7 @@ public class MaxOFArray {
     public static int arrayMax(int[] a, int n){
         int max = a[0];
         for (int i=0;i<n;i++){
+//            max = Math.max(max, a[i]);
             max = max>a[i]?max:a[i];
         }
         return max;
@@ -31,8 +32,8 @@ public class MaxOFArray {
 //        for(int i=0;i<a.length;i++){
 //            System.out.print(a[i] + "\t");
 //        }
-//        ENHANCED FOR LOOP
 
+//        ENHANCED FOR LOOP
         for (int j : a) {
             System.out.print(j + "    ");
         }
