@@ -11,7 +11,6 @@ public class SelectionSort extends Operations {
         int[] a = new int[n];
 
         input(a, n);
-
         display(a,n);
     }
 }
