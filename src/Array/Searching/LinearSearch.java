@@ -16,10 +16,10 @@ public class LinearSearch extends Operations {
 
         System.out.print("Enter Value to Find:    ");
         int val = sc.nextInt();
-        linearsearch(a,n,val);
+        linearSearch(a,n,val);
     }
 
-    public static void linearsearch(int[] a, int n, int val) {
+    public static void linearSearch(int[] a, int n, int val) {
         int i;
         for(i=0;i<n;i++){
             if(val == a[i]){

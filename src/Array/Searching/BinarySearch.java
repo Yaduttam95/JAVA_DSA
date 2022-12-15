@@ -16,10 +16,10 @@ public class BinarySearch extends Operations{
 
         System.out.print("Enter Value to Find:    ");
         int val = sc.nextInt();
-        binarysearch(a,n,val,0,n);
+        binarySearch(a,n,val,0,n);
     }
 
-    public static void binarysearch(int[] a, int n, int val, int low, int high) {
+    public static void binarySearch(int[] a, int n, int val, int low, int high) {
         boolean found = false;
         int mid = 0;
         while(low<=high) {
