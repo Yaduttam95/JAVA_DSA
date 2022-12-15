@@ -11,7 +11,10 @@
     * [Operations](https://github.com/TheAlgorithms/Java/blob/master/src/Array/Operations.java)
     * Searching
       * [BinarySearch](https://github.com/TheAlgorithms/Java/blob/master/src/Array/Searching/BinarySearch.java)
+      * [JumpSearch](https://github.com/TheAlgorithms/Java/blob/master/src/Array/Searching/JumpSearch.java)
       * [LinearSearch](https://github.com/TheAlgorithms/Java/blob/master/src/Array/Searching/LinearSearch.java)
+    * Sorting
+      * [SelectionSort](https://github.com/TheAlgorithms/Java/blob/master/src/Array/Sorting/SelectionSort.java)
   * HelloWorld
     * [HelloWorld](https://github.com/TheAlgorithms/Java/blob/master/src/HelloWorld/HelloWorld.java)
   * Misc
