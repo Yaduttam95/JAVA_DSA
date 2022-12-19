@@ -12,7 +12,7 @@ public class InsertionSort extends Operations{
         input(a, n);
         display(a,n);
         insertionSort(a,n);
-        System.out.println("Sorted Array");
+        System.out.print("SORTED ");
         display(a,n);
     }
 

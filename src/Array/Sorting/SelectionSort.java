@@ -13,7 +13,7 @@ public class SelectionSort extends Operations {
         input(a, n);
         display(a,n);
         selectionSort(a,n);
-        System.out.println("Sorted Array");
+        System.out.print("SORTED ");
         display(a,n);
     }
 

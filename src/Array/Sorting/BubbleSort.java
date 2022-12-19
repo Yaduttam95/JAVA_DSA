@@ -12,7 +12,7 @@ public class BubbleSort extends Operations{
         input(a, n);
         display(a,n);
         bubbleSort(a,n);
-        System.out.println("Sorted Array");
+        System.out.print("SORTED ");
         display(a,n);
     }
 
